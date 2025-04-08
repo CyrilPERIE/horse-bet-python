@@ -6,19 +6,23 @@ E-PMU est un projet Python dédié à la création de modèles d'intelligence ar
 
 ## Installation du projet
 
-1. Installation des dépendances
+1. Cloner ce dépôt
+
+2. Installation des dépendances
 
 ```shell
 pip install -r requirements.txt
 ```
 
-2. Importation des données (~30min)
+3. Importation des données
 
 Possibilités de modifier les dates de début et fin de récolte directement dans le fichier `scripts/scraping/scrap_previous_data.py`
 
 ```shell
 python -m scripts.scraping.scrap_previous_data
 ```
+
+4. Prétraitez les données et entrainez les modèles
 
 ## Fonctionnalités
 
@@ -134,14 +138,6 @@ Le projet utilise les bibliothèques Python suivantes:
 - scikit-learn : Algorithmes de machine learning
 - seaborn & matplotlib : Visualisation de données
 - mlflow : Suivi des expériences et gestion des modèles
-
-## Démarrage
-
-1. Clonez ce dépôt
-2. Installez les dépendances : `pip install -r requirements.txt`
-3. Créez les dossiers de base : `mkdir -p data/raw data/processed`
-4. Lancez les scripts de collecte de données
-5. Prétraitez les données et entraînez vos modèles
 
 ## Flux de Travail Typique
 
