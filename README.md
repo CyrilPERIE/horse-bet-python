@@ -35,6 +35,7 @@ python -m scripts.scraping.scrap_previous_data
 
 ## Architecture du Projet
 
+```
 python/
 │
 ├── data/
@@ -108,7 +109,7 @@ python/
 ├── setup.py                     # Pour installer le package
 ├── run.py                       # Point d'entrée principal
 └── README.md                    # Documentation du projet
-
+```
 
 ## Organisation des Modules
 
