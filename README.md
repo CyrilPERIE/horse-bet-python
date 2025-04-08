@@ -4,6 +4,20 @@
 
 E-PMU est un projet Python dédié à la création de modèles d'intelligence artificielle pour prédire les résultats des courses de chevaux. Le projet utilise les données historiques des courses pour entraîner des modèles de machine learning capables de faire des prédictions sur des courses futures.
 
+## Installation du projet
+
+1. Installation des dépendances
+
+```shell
+pip install -r requirements.txt
+```
+
+2. Importation des données (~30min)
+
+```shell
+python -m scripts.scraping.scrap_previous_data
+```
+
 ## Fonctionnalités
 
 - Collecte de données de courses via des scripts Python
