@@ -6,7 +6,7 @@ from scripts.scraping.scraper import scrap_day
 
 
 if __name__ == "__main__":
-    year = 2021
+    year = 2020
     start_date = date(year, 1, 1)
     end_date = date(year, 12, 31)
     data_folder = f"data/raw/{year}"
