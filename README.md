@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 2. Importation des données (~30min)
 
+Possibilités de modifier les dates de début et fin de récolte directement dans le fichier `scripts/scraping/scrap_previous_data.py`
+
 ```shell
 python -m scripts.scraping.scrap_previous_data
 ```
